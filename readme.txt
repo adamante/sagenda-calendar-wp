@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.0
-Stable tag: 0.7.1
+Stable tag: 0.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,7 +41,7 @@ Sagenda WP plugin require the PHP "Curl extension" to be activated on your hosti
 
 How to install this booking plugin into my WordPress website?
 
-[youtube https://www.youtube.com/watch?v=wCEmJg2hWgw]
+[youtube https://youtu.be/_pdbEgqJxoQ]
 
 How to create a Sagenda’s account in video?
 
@@ -86,13 +86,17 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 0.7.2 =
+* IMPROVED : Time format in the left margin of the week and day view is also customizable.
+
+
+== Changelog ==
+
 = 0.7.1 =
 * IMPROVED : Messaging.
 * IMPROVED : Display a message if it's not allowed to add more member to the booking.
 * TRANSLATIONS : Added Latvian translations, improved : arabic, romanian and more...
 
-
-== Changelog ==
 
 = 0.7.0 =
 * ADDED : Add new feature : multi person booking. You can now enter the name of several persons when booking a reservation.
