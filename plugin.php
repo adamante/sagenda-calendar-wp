@@ -83,11 +83,16 @@ function head_code_sagenda_calendar(){
 	$headcode .= '<link href="'.SAGENDA_CALENDAR_PLUGIN_URL.'assets/angular/styles.css" rel="stylesheet"/>';
 	echo $headcode;
 }
+add_action('wp_head','head_code_sagenda_calendar',1,1);
 
 /**
-* Add it in the frontend
+* Include CSS, JavaScript in the footer section of the plugin.
 */
-add_action('wp_head','head_code_sagenda_calendar',1,1);
+function footer_code_sagenda_calendar() {
+    $headcode .= '<link href="'.SAGENDA_CALENDAR_PLUGIN_URL.'assets/angular/sagenda-button.css" rel="stylesheet"/>';
+	echo $headcode;
+}
+add_action( 'wp_footer', 'footer_code_sagenda_calendar' );
 
 /**
 * Action hooks for adding admin page
