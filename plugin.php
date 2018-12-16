@@ -89,7 +89,7 @@ add_action('wp_head','head_code_sagenda_calendar',1,1);
 * Include CSS, JavaScript in the footer section of the plugin.
 */
 function footer_code_sagenda_calendar() {
-    $headcode .= '<link href="'.SAGENDA_CALENDAR_PLUGIN_URL.'assets/angular/sagenda-button.css" rel="stylesheet"/>';
+    $headcode .= '<link href="'.SAGENDA_CALENDAR_PLUGIN_URL.'assets/angular/sagenda-integration.css" rel="stylesheet"/>';
 	echo $headcode;
 }
 add_action( 'wp_footer', 'footer_code_sagenda_calendar' );
