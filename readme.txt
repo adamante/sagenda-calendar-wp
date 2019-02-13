@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.0
-Stable tag: 0.7.5
+Stable tag: 0.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,7 +41,7 @@ Sagenda WP plugin require the PHP "Curl extension" to be activated on your hosti
 
 How to install this booking plugin into my WordPress website?
 
-[youtube https://youtu.be/_pdbEgqJxoQ]
+[youtube https://www.youtube.com/watch?v=_pdbEgqJxoQ]
 
 How to create a Sagenda’s account in video?
 
@@ -86,11 +86,15 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
-= 0.7.5 =
-* FIXED : compatibility with Guttenberg and Twenty Nineteen theme.
+= 0.x.x =
+* FIXED : improve layout and font rendering and avoid conflict with existing theme.
 
 
 == Changelog ==
+
+= 0.7.5 =
+* FIXED : compatibility with Guttenberg and Twenty Nineteen theme.
+
 
 = 0.7.4 =
 * TRANSLATIONS : Updated to match the new
