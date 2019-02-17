@@ -79,7 +79,7 @@ function sagenda_calendar_is_CURL_Enabled(){
 function head_code_sagenda_calendar(){
 	$headcode = '';
 	$headcode .= '<link rel="stylesheet" href="'.SAGENDA_CALENDAR_PLUGIN_URL.'assets/vendor/bootstrap/bootstrap-wrapper.css" >';
-	$headcode .= '<link href="https://unpkg.com/@angular/material@7.0.2/prebuilt-themes/indigo-pink.css" rel="stylesheet">';
+	$headcode .= '<link href="https://unpkg.com/@angular/material@7.2.2/prebuilt-themes/indigo-pink.css" rel="stylesheet">';
 	$headcode .= '<link href="'.SAGENDA_CALENDAR_PLUGIN_URL.'assets/angular/styles.css" rel="stylesheet"/>';
 	echo $headcode;
 }
