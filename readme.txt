@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.1
-Stable tag: 0.8.1
+Stable tag: 0.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,10 +86,14 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 0.8.2 =
+* FIXED : correct a text problem displaying payment for any event, even those without payment
+
+== Changelog ==
+
 = 0.8.1 =
 * FIXED : layout problem with Nisarg theme.
 
-== Changelog ==
 
 = 0.8.0 =
 * FIXED : improve layout and font rendering and avoid conflict with existing theme.
