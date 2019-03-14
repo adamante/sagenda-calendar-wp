@@ -13,7 +13,9 @@
 		"NO_BOOKABLE_ITEM": "Please create at least 1 bookable item in your Sagenda's account!",
 		"NO_TOKEN": "Please copy your authentication code (token) from your Sagenda's account!",
 		"DIFFERENT_CURRENCIES": "You can not book multiple events that have different payment currencies.",
-		"NUMBER_OF_MEMBERS_EXCEEDS_MAXIMUM": "There are not enough openings for the number of members you would like to book."
+		"NUMBER_OF_MEMBERS_EXCEEDS_MAXIMUM": "There are not enough openings for the number of members you would like to book.",
+		"MINIMUM_QUOTA": "You need to book a minimum of {{value}} slots",
+		"MAXIMUM_QUOTA": "You can't book more than {{value}} slots"
 	},
 	"EVENT": {
 		"ALL_DAY": "All Day",
@@ -67,7 +69,6 @@
 		"PERCENTAGE_FEES": "Percentage",
 		"FEES_FIELD_NAME": "Name",
 		"FEES_FIELD_AMOUNT": "Amount",
-		"FEES_FIELD_SUB_TOTAL": "Sub Total",
 		"FEES_FIELD_GRAND_TOTAL": "Grand Total",
 		"FEES_FIELD_PERCENTAGE": "Percentage",
 		"FEES_FIELD_CALC_PERCENTAGE_ON": "Calulate Percentage On",
