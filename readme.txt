@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.1
-Stable tag: 0.8.3
+Stable tag: 0.9.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,13 +86,19 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 0.9.0 =
+* ADDED : As user I'm not authorised to book less / more than quota defined in Sagenda's account by admin.
+* ADDED : As admin I can define Taxes and Fees for online payment.
+* TRANSLATIONS : Added multiple persons translations.
+
+== Changelog ==
+
 = 0.8.3 =
 * IMPROVED : Added no index at the root of the plugin.
 * TESTED : WordPress 5.1.1
 * TESTED : PHP 7.3.1
 * TRANSLATIONS : Updated French, Russian, Hebrew, Italian...
 
-== Changelog ==
 
 = 0.8.2 =
 * FIXED : correct a text problem displaying payment for any event, even those without payment

@@ -64,6 +64,8 @@
         "ADD_MEMBER": "Ajouter un participant",
         "NUMBER_OF_PEOPLE": "Nombre de personnes \u00e0 r\u00e9server sous ce participant",
         "BOOK_MULTIPLE_PEOPLE": "R\u00e9server plusieurs personnes",
+        "BY_GIVING_ALL_NAMES": "En saisissant tous les noms",
+        "BY_ENTERING_NB_OF_PEOPLE": "En saisissant le nombre de personnes",
         "EVENT_SUB_TOTAL": "Sous Total \u00e9v\u00e9nement:",
         "TAXES_AND_FEES": "Taxes et frais",
         "FIXED_FEES": "Fixe",
