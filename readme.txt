@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.1
-Stable tag: 0.9.0
+Stable tag: 1.0.0-alpha
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,12 +86,15 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 1.0.0-alpha =
+* ADDED : we can now select a fixed boobable item by shorcode.
+
+== Changelog ==
+
 = 0.9.0 =
 * ADDED : As user I'm not authorised to book less / more than quota defined in Sagenda's account by admin.
 * ADDED : As admin I can define Taxes and Fees for online payment.
 * TRANSLATIONS : Added multiple persons translations.
-
-== Changelog ==
 
 = 0.8.3 =
 * IMPROVED : Added no index at the root of the plugin.

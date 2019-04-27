@@ -51,13 +51,15 @@ class CalendarController {
 
     $sagendaAPI = new sagendaAPI();
 
+    $fixedBookableItem = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'fixedbookableitem');
+
     return $twig->render($this->view, array(
       'SAGENDA_CALENDAR_PLUGIN_URL'          => SAGENDA_CALENDAR_PLUGIN_URL,
       'sagendaToken'                => get_option('mrs1_authentication_code'),
       'bearerToken'                 => $sagendaAPI->convertAPITokenToBearerToken(get_option('mrs1_authentication_code')),
       'weekStartsOn'                => get_option('start_of_week'),
       'languageCultureShortName'    => get_locale(),
-      //'' => SAGENDA_CALENDAR_PLUGIN_URL.'assets/angular/"
+      'fixedBookableItem'           => $fixedBookableItem,
       'dateFormat'                  => DateHelper::convertDateFormatFromPHPToMomentjs(get_option( 'date_format' )),
       'timeFormat'                  => DateHelper::convertTimeFormatFromPHPToMomentjs(get_option( 'time_format' )),
     ));
