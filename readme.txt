@@ -4,7 +4,7 @@ Donate link: http://www.sagenda.com/community/
 Tags: booking, appointment, scheduling, availability, reservation, rental, free, accommodation, booking form, calendar
 Requires at least: 3.0
 Requires PHP: 5.6
-Tested up to: 5.1
+Tested up to: 5.2
 Stable tag: 1.0.0-alpha
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,6 +29,13 @@ You can use PayPal as payment gateway to make your customers pay for bookings. T
 **Shortcode**
 You can use Sagenda as shortcode in any page or plugin :
 `[sagenda-calendar-wp]`
+
+You can force the Calendar to diplay only one bookable item. Please then use the shortcode like this :
+`[sagenda-calendar-wp fixedbookableitem="x"]`
+where x is the "id" of your bookable item. To know the id of your bookable item, you can just go to your bookable item list :  [https://sagenda.net/BookableItems/List](https://sagenda.net/BookableItems/List) and select "edit". You will find the nb in the URL after the "/Edit/" value, such as : https://sagenda.net/BookableItems/Edit/x.
+
+You can also use this feature with URL query parameter such as adding ?fixedbookableitem="x" to your URL. Please don't use both shortcode and query parameter "fixedbookableitem" in the same time. 
+
 
 **Prerequisites**
 SAGENDA WP PLUGIN REQUIRE ⚠️ PHP 5.6 or 7.x  !
@@ -87,7 +94,8 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 = 1.0.0-alpha =
-* ADDED : we can now select a fixed boobable item by shorcode.
+* ADDED : we can now select a fixed boobable item by shorcode or URL query.
+* TESTED : tested WordPress 5.2.
 
 == Changelog ==
 
