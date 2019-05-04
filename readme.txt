@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.2
-Stable tag: 1.0.0-alpha
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,8 +93,9 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
-= 1.0.0-alpha =
+= 1.0.0 =
 * ADDED : we can now select a fixed boobable item by shorcode or URL query.
+* IMPROVED : List of events on the registration view are grouped by bookable items.
 * TESTED : tested WordPress 5.2.
 
 == Changelog ==
