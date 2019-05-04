@@ -94,7 +94,7 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 = 1.0.0 =
-* ADDED : we can now select a fixed boobable item by shorcode or URL query.
+* ADDED : we can now select a fixed bookable item by shortcode or URL query.
 * IMPROVED : List of events on the registration view are grouped by bookable items.
 * TESTED : tested WordPress 5.2.
 
