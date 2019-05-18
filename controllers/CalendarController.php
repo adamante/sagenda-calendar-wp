@@ -51,13 +51,16 @@ class CalendarController {
 
     $sagendaAPI = new sagendaAPI();
 
+    // you should request name of the shortcode in lowercase
     $fixedBookableItem = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'fixedbookableitem');
+    $defaultView = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'defaultview');
 
     return $twig->render($this->view, array(
       'SAGENDA_CALENDAR_PLUGIN_URL'          => SAGENDA_CALENDAR_PLUGIN_URL,
       'sagendaToken'                => get_option('mrs1_authentication_code'),
       'bearerToken'                 => $sagendaAPI->convertAPITokenToBearerToken(get_option('mrs1_authentication_code')),
       'weekStartsOn'                => get_option('start_of_week'),
+      'defaultView'                 => $defaultView,
       'languageCultureShortName'    => get_locale(),
       'fixedBookableItem'           => $fixedBookableItem,
       'dateFormat'                  => DateHelper::convertDateFormatFromPHPToMomentjs(get_option( 'date_format' )),

@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.2
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,16 +30,20 @@ You can use PayPal as payment gateway to make your customers pay for bookings. T
 You can use Sagenda as shortcode in any page or plugin :
 `[sagenda-calendar-wp]`
 
-You can force the Calendar to diplay only one bookable item. Please then use the shortcode like this :
+You can force the Calendar to display only one bookable item. Please then use the shortcode like this :
 `[sagenda-calendar-wp fixedbookableitem="x"]`
 where x is the "id" of your bookable item. To know the id of your bookable item, you can just go to your bookable item list :  [https://sagenda.net/BookableItems/List](https://sagenda.net/BookableItems/List) and select "edit". You will find the nb in the URL after the "/Edit/" value, such as : https://sagenda.net/BookableItems/Edit/x.
 
 You can also use this feature with URL query parameter such as adding ?fixedbookableitem="x" to your URL. Please don't use both shortcode and query parameter "fixedbookableitem" in the same time. 
 
+You can choose the default view 
+`[sagenda-calendar-wp defaultView="x"]`
+where x is the "month", "week" or "day".
+
 
 **Prerequisites**
 SAGENDA WP PLUGIN REQUIRE ⚠️ PHP 5.6 or 7.x  !
-⚠️ FOR YOUR OWN SAFETY DON'T USE PHP VERSION OLDER THAN 5.6 THERE IS NO SECURITY PATCH ⚠️
+⚠️ FOR YOUR OWN SAFETY DON'T USE PHP VERSION OLDER THAN 7.1 THERE IS NO SECURITY PATCH ⚠️
 [http://php.net/supported-versions.php](http://php.net/supported-versions.php)
 
 Sagenda WP plugin require the PHP "Curl extension" to be activated on your hosting to call web services.
@@ -93,12 +97,17 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 1.1.0 =
+* ADDED : You can now choose the default view: month, week or day by using a shortcode.
+* ADDED : Translations.
+
+
+== Changelog ==
+
 = 1.0.0 =
 * ADDED : we can now select a fixed bookable item by shortcode or URL query.
 * IMPROVED : List of events on the registration view are grouped by bookable items.
 * TESTED : tested WordPress 5.2.
-
-== Changelog ==
 
 = 0.9.0 =
 * ADDED : As user I'm not authorised to book less / more than quota defined in Sagenda's account by admin.

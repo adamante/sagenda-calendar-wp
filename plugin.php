@@ -4,7 +4,7 @@
 * Plugin Name:       Sagenda Calendar
 * Plugin URI:        https://www.sagenda.com/
 * Description:       Sagenda is a free Online Booking / Scheduling / Reservation System, which gives customers the opportunity to choose the date and the time of an appointment according to your preferences.
-* Version:           1.0.0
+* Version:           1.1.0
 * Author:            sagenda
 * Author URI:        http://www.iteration.info
 * License:           GPLv2
@@ -51,7 +51,7 @@ function sagenda_calendar_is_PHP_version_OK(){
 		echo "You are runing an outdated version of PHP !"."<br>" ;
 		echo "Your version is : ". phpversion()."<br>";
 		echo "Minimal version : "."5.4.0<br>";
-		echo "Recommended version : 5.6 - 7.x  (all version <5.6 are \"End of life\" and don't have security fixes!)"."<br>";
+		echo "Recommended version : 7.2 or higher  (all version <7.1 are \"End of life\" and don't have security fixes!)"."<br>";
 		echo "Please read offical PHP recommendations <a href=\"http://php.net/supported-versions.php\">http://php.net/supported-versions.php</a><br>" ;
 		echo "Please update your PHP version form your admin panel. If you don't know how to do it please contact your WebMaster or your Hosting provider!" ;
 		return false;

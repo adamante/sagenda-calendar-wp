@@ -26,7 +26,6 @@ class initializer
     function initFrontend($shorcodeParametersArray)
     {
         $twig = self::initTwig();
-        // $shortcode = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'view');
         $calendarController = new CalendarController();
         return $calendarController->showCalendar($twig, $shorcodeParametersArray);
     }
