@@ -40,6 +40,10 @@ You can choose the default view
 `[sagenda-calendar-wp defaultView="x"]`
 where x is the "month", "week" or "day".
 
+You can unactivate view(s)
+`[sagenda-calendar-wp removeMonthViewButton="true" removeWeekViewButton="true" removeDayViewButton="true"]`
+This will simply remove the corresponding button to switch from a view to another one.
+
 
 **Prerequisites**
 SAGENDA WP PLUGIN REQUIRE ⚠️ PHP 5.6 or 7.x  !
@@ -99,6 +103,7 @@ We will add your translations in the next release!
 == Upgrade Notice ==
 = 1.1.0 =
 * ADDED : You can now choose the default view: month, week or day by using a shortcode.
+* ADDED : You can now unactivate views: "month, week or day" by using a shortcode.
 * ADDED : Translations.
 
 

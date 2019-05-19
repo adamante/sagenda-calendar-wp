@@ -54,6 +54,9 @@ class CalendarController {
     // you should request name of the shortcode in lowercase
     $fixedBookableItem = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'fixedbookableitem');
     $defaultView = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'defaultview');
+    $removeMonthViewButton = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'removemonthviewbutton');
+    $removeWeekViewButton = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'removeweekviewbutton');
+    $removeDayViewButton = ArrayHelper::getElementIfSetAndNotEmpty($shorcodeParametersArray, 'removedayviewbutton');
 
     return $twig->render($this->view, array(
       'SAGENDA_CALENDAR_PLUGIN_URL'          => SAGENDA_CALENDAR_PLUGIN_URL,
@@ -63,6 +66,9 @@ class CalendarController {
       'defaultView'                 => $defaultView,
       'languageCultureShortName'    => get_locale(),
       'fixedBookableItem'           => $fixedBookableItem,
+      'removeMonthViewButton'       => $removeMonthViewButton,
+      'removeWeekViewButton'        => $removeWeekViewButton,
+      'removeDayViewButton'         => $removeDayViewButton,
       'dateFormat'                  => DateHelper::convertDateFormatFromPHPToMomentjs(get_option( 'date_format' )),
       'timeFormat'                  => DateHelper::convertTimeFormatFromPHPToMomentjs(get_option( 'time_format' )),
     ));
