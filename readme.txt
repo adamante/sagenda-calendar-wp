@@ -103,7 +103,7 @@ We will add your translations in the next release!
 == Upgrade Notice ==
 = 1.1.0 =
 * ADDED : You can now choose the default view: month, week or day by using a shortcode.
-* ADDED : You can now unactivate views: "month, week or day" by using a shortcode.
+* ADDED : You can now remove views: "month, week or day" by using a shortcode.
 * ADDED : Translations.
 
 
