@@ -32,8 +32,7 @@ You can use Sagenda as shortcode in any page or plugin :
 
 You can force the Calendar to display only one bookable item. Please then use the shortcode like this :
 `[sagenda-calendar-wp fixedbookableitem="x"]`
-where x is the "id" of your bookable item. To know the id of your bookable item, you can just go to your bookable item list :  [https://sagenda.net/BookableItems/List](https://sagenda.net/BookableItems/List) and select "edit". You will find the nb in the URL after the "/Edit/" value, such as : https://sagenda.net/BookableItems/Edit/x.
-
+where x is the "id" of your bookable item. To know the id of your bookable item, you can just go to your bookable item list :  [https://sagenda.net/BookableItems/List](https://sagenda.net/BookableItems/List) and select "edit". You can then copy the ID with the copy button. 
 You can also use this feature with URL query parameter such as adding ?fixedbookableitem="x" to your URL. Please don't use both shortcode and query parameter "fixedbookableitem" in the same time. 
 
 You can choose the default view 

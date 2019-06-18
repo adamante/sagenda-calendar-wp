@@ -2,11 +2,9 @@
 
 use SagendaCalendar\Controllers\AdminTokenController;
 use SagendaCalendar\Controllers\CalendarController;
-use SagendaCalendar\Helpers\ArrayHelper;
 
 include_once( SAGENDA_CALENDAR_PLUGIN_DIR . 'controllers/CalendarController.php' );
 include_once( SAGENDA_CALENDAR_PLUGIN_DIR . 'controllers/AdminTokenController.php' );
-include_once( SAGENDA_CALENDAR_PLUGIN_DIR . 'helpers/ArrayHelper.php' );
 
 // TODO : did we need include once if we already use namespace?
 
