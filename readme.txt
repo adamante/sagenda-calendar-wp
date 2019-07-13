@@ -100,13 +100,18 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 1.2.0 =
+* ADDED : Support for right to left languages.
+* FIXED : A bug displaying the bookable item's location and description twice.
+
+
+
+== Changelog ==
+
 = 1.1.0 =
 * ADDED : You can now choose the default view: month, week or day by using a shortcode.
 * ADDED : You can now remove views: "month, week or day" by using a shortcode.
 * ADDED : Translations.
-
-
-== Changelog ==
 
 = 1.0.0 =
 * ADDED : we can now select a fixed bookable item by shortcode or URL query.
