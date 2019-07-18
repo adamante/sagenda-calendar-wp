@@ -103,7 +103,7 @@ We will add your translations in the next release!
 = 1.2.0 =
 * ADDED : Support for right to left languages.
 * FIXED : A bug displaying the bookable item's location and description twice.
-
+* IMPROVED : registration form layout.
 
 
 == Changelog ==
