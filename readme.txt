@@ -100,13 +100,17 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 1.3.0 =
+* ADDED : Event title (when checked "display in frontend") can be now displayed also in the calendar view. Was only in list view until today.
+* IMPROVED : if there's a paid event and the payment module isn't activated we display an error message.
+* IMPROVED : registration form layout is better (again).
+
+
+== Changelog ==
 = 1.2.0 =
 * ADDED : Support for right to left languages.
 * FIXED : A bug displaying the bookable item's location and description twice.
 * IMPROVED : registration form layout.
-
-
-== Changelog ==
 
 = 1.1.0 =
 * ADDED : You can now choose the default view: month, week or day by using a shortcode.
