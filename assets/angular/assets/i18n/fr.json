@@ -1,11 +1,11 @@
 {
 	"CALENDAR": {
-		"BOOKABLE_ITEM": "Objet à réserver",
+		"BOOKABLE_ITEM": "Element à réservable",
 		"DAY": "Jour",
 		"DESCRIPTION": "Description ",
 		"LOCATION": "Emplacement ",
 		"MONTH": "Mois",
-		"NAME": "Prénom",
+		"NAME": "Nom",
 		"NEXT": "Suivant",
 		"PREVIOUS": "Précédent",
 		"TODAY": "Aujourd'hui",

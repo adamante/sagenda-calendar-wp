@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.2
-Stable tag: 1.3.1
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,11 +100,14 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
-= 1.3.1 =
-* FIXED : An error message if PayPal module not activated even if there's not paid event.
+= 1.4.0 =
+* ADDED : First support for customization edition form.
 
 
 == Changelog ==
+= 1.3.1 =
+* FIXED : An error message if PayPal module not activated even if there's not paid event.
+
 = 1.3.0 =
 * ADDED : Event title (when checked "display in frontend") can be now displayed also in the calendar view. Was only in list view until today.
 * ADDED : Coupon code. If your customers registed a paid event, they can now enter coupon code (aka : discount code).
