@@ -110,7 +110,7 @@ We will add your translations in the next release!
 
 = 1.3.0 =
 * ADDED : Event title (when checked "display in frontend") can be now displayed also in the calendar view. Was only in list view until today.
-* ADDED : Coupon code. If your customers registed a paid event, they can now enter coupon code (aka : discount code).
+* ADDED : Coupon code. If your customers book a paid event, they can now enter coupon code (aka : discount code).
 * IMPROVED : if there's a paid event and the payment module isn't activated we display an error message.
 * IMPROVED : registration form layout is better (again).
 
