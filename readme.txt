@@ -4,8 +4,8 @@ Donate link: http://www.sagenda.com/community/
 Tags: booking, appointment, scheduling, availability, reservation, rental, free, accommodation, booking form, calendar
 Requires at least: 3.0
 Requires PHP: 5.6
-Tested up to: 5.2
-Stable tag: 1.4.0
+Tested up to: 5.3
+Stable tag: 1.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,11 +100,15 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+= 1.5.0 =
+* ADDED : Support for list in customization edition form.
+* ADDED : Support for redirection after booking in customization edition form.
+* TESTED : tested WordPress 5.3.
+
+== Changelog ==
 = 1.4.0 =
 * ADDED : First support for customization edition form.
 
-
-== Changelog ==
 = 1.3.1 =
 * FIXED : An error message if PayPal module not activated even if there's not paid event.
 
