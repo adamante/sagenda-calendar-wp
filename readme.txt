@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.3
-Stable tag: 1.5.0
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -101,8 +101,7 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 = 1.5.0 =
-* ADDED : Support for list in customization edition form.
-* ADDED : Support for redirection after booking in customization edition form.
+* FIXED : A bug when adding another member for multiple booking and when not having customized fields.
 * TESTED : tested WordPress 5.3.
 
 == Changelog ==
