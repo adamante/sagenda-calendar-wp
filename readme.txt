@@ -101,7 +101,9 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 = 1.5.0 =
+* ADDED : improved support for customization edition form.
 * FIXED : A bug when adding another member for multiple booking and when not having customized fields.
+* FIXED : A bug when starting the week view with monday instead of sunday, the date displayed on the header where not updated.
 * TESTED : tested WordPress 5.3.
 
 == Changelog ==
