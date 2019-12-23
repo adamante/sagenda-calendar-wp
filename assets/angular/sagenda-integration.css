@@ -1,10 +1,15 @@
 /* This css allows a better integration on existing website and avoid conflict with existing css */
 
+.bootstrap-wrapper {
+	all: initial;
+}
+
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: initial;
+  all: initial;
 }
 
 app-root > div.container-fluid {
